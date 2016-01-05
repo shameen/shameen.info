@@ -9,7 +9,7 @@
                 <h3 data-bind="text: title"></h3>
                 <p data-bind="html: description"></p>
                 <div class="external-link" data-bind="with: link">
-                    <a data-bind="href: url, enable: active, visible: url != null"></a>
+                    <a data-bind="attr: {href: url}, text: url, enable: active, visible: url != null" target="_blank" title="Opens in New Tab"></a>
                 </div>
             </div>
         </div>
