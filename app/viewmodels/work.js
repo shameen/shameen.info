@@ -1,6 +1,6 @@
 ﻿define([], function () {
     return {
-        displayName: 'Portfolio',
+        title: 'Portfolio',
         portfolioItems: [
             {
                 title: "Hashtag Dungeon Website",
