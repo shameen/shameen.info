@@ -1,19 +1,14 @@
-﻿/*!
- * Durandal 2.1.0 Copyright (c) 2012 Blue Spire Consulting, Inc. All Rights Reserved.
- * Available via the MIT license.
- * see: http://durandaljs.com or https://github.com/BlueSpire/Durandal for details
- */
-
+﻿/*based on durandal starterkit*/
+/*TODO: set up less or sass*/
 .splash {
     text-align: center;
-    margin: 10% 0 0 0;
+    margin: 15% 0 0 0;
 }
 
 .splash .fa-spinner {
     text-align: center;
     display: inline-block;
     font-size: 5em;
-    margin-top: 50px;
 }
 
 .page-host {
