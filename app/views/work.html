@@ -11,6 +11,9 @@
                 <div class="external-link" data-bind="with: link">
                     <a data-bind="attr: {href: url}, text: url, enable: active, visible: url != null" target="_blank" title="Opens in New Tab"></a>
                 </div>
+                <p data-bind="foreach: tags">
+                    <span class="label label-default" data-bind="text: $data"></span>
+                </p>
             </div>
         </div>
     </div>
