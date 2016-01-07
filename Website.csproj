@@ -47,9 +47,7 @@
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
   </PropertyGroup>
-  <ItemGroup>
-    <Folder Include="Properties\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Content Include="Website\app\main.js" />
     <Content Include="Website\app\viewmodels\shell.js" />
@@ -113,6 +111,7 @@
     <Content Include="Website\lib\font-awesome\css\font-awesome.css" />
     <Content Include="Website\lib\font-awesome\css\font-awesome.min.css" />
     <Content Include="Website\lib\font-awesome\fonts\fontawesome-webfont.svg" />
+    <None Include="Properties\PublishProfiles\shameen.info.pubxml" />
     <None Include="Website\lib\jquery\jquery-1.9.1.intellisense.js" />
     <Content Include="Website\lib\jquery\jquery-1.9.1.js" />
     <Content Include="Website\lib\jquery\jquery-1.9.1.min.js" />
