@@ -3,13 +3,15 @@
     <blockquote data-bind="text:subHeader"></blockquote>
     <div class="row" data-bind="foreach: experimentList">
         <div class="col-xs-12">
-            <h3 data-bind="text: title"></h3>
-            <p data-bind="text: description"></p>
-            <a data-bind="attr: {href: url}, text: url, style: {'text-decoration': functional ? '' : 'line-through'}"></a>
-            <div data-bind="foreach: tags">
-                <span class="label label-primary" data-bind="text: $data"></span>
-                <span class="label label-success" data-bind="visible: $parent.functional">Working</span>
-                <span class="label label-danger" data-bind="visible: !$parent.functional">Not fully functional</span>
+            <div class="bs-callout bs-callout-default">
+                <h3 data-bind="text: title"></h3>
+                <p data-bind="text: description"></p>
+                <a data-bind="attr: {href: url}, text: url, style: {'text-decoration': functional ? '' : 'line-through'}"></a>
+                    <div data-bind="foreach: tags">
+                        <span class="label label-primary" data-bind="text: $data"></span>
+                        <span class="label label-success" data-bind="visible: $parent.functional">Working</span>
+                        <span class="label label-danger" data-bind="visible: !$parent.functional">Not fully functional</span>
+                    </div>
             </div>
         </div>
     </div>
