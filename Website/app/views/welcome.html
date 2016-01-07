@@ -2,6 +2,8 @@
     <h2 data-bind="text:title"></h2>
     <blockquote data-bind="text:subHeader"></blockquote>
     <div class="row" data-bind="foreach: contactList">
-        <a data-bind="attr: { href:url }, text: title"></a>
+        <div class="bs-callout bs-callout-default">
+            <a data-bind="attr: { href:url }, text: title"></a>
+        </div>
     </div>
 </section>
