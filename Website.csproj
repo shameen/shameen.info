@@ -52,10 +52,12 @@
     <Content Include="Website\app\main.js" />
     <Content Include="Website\app\viewmodels\shell.js" />
     <Content Include="Website\app\viewmodels\experiments.js" />
+    <Content Include="Website\app\viewmodels\templates.js" />
     <Content Include="Website\app\viewmodels\welcome.js" />
     <Content Include="Website\app\viewmodels\work.js" />
     <Content Include="Website\app\views\shell.html" />
     <Content Include="Website\app\views\experiments.html" />
+    <Content Include="Website\app\views\templates.html" />
     <Content Include="Website\app\views\welcome.html" />
     <Content Include="Website\app\views\work.html" />
     <Content Include="Website\css\ie10mobile.css" />
