@@ -10,7 +10,8 @@
             router.map([
                 { route: '', title:'Welcome', moduleId: 'viewmodels/welcome', nav: true },
                 { route: 'work', moduleId: 'viewmodels/work', nav: true },
-                { route: 'experiments', moduleId: 'viewmodels/experiments', nav: true }
+                { route: 'experiments', moduleId: 'viewmodels/experiments', nav: true },
+                { route: 'templates', moduleId: 'viewmodels/templates', nav:true}
             ]).buildNavigationModel();
             
             return router.activate();
