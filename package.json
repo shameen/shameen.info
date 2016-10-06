@@ -1,0 +1,20 @@
+{
+  "name": "shameen.info",
+  "version": "1.0.0",
+  "description": "personal durandal website",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shameen/shameen.info.git"
+  },
+  "author": "shameen",
+  "license": "UNLICENSED",
+  "private": true,
+  "bugs": {
+    "url": "https://github.com/shameen/shameen.info/issues"
+  },
+  "homepage": "https://github.com/shameen/shameen.info#readme"
+}
