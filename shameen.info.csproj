@@ -62,7 +62,6 @@
     <Content Include="Website\app\views\welcome.html" />
     <Content Include="Website\app\views\work.html" />
     <Content Include="Website\css\ie10mobile.css" />
-    <Content Include="Website\css\styles.css" />
     <Content Include="Website\images\work\deliv2.png" />
     <Content Include="Website\images\work\deliv3_1.png" />
     <Content Include="Website\images\work\deliv3_2.png" />
