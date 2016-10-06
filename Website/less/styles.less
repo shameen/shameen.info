@@ -1,3 +1,9 @@
+@import 'https://fonts.googleapis.com/css?family=Work+Sans:200';
+@sh-green: #2f8d75;
+@sh-blue: #0fa09e;
+@sh-purple: #470348;
+@sh-purple-dark: #470348;
+
 @-webkit-keyframes BG {
     0%{background-position:100% 0%}
     50%{background-position:0% 100%}
@@ -14,12 +20,37 @@
     100%{background-position:100% 0%}
 }
 .bg-bg {
-    background: linear-gradient(270deg, #2f8d75, #0e9593);
+    background: @sh-green linear-gradient(225deg, @sh-green, @sh-blue);
     background-size: 400% 400%;
+    -webkit-animation: BG 15s ease infinite;
+    -moz-animation: BG 15s ease infinite;
+    animation: BG 15s ease infinite;
+}
 
-    -webkit-animation: BG 20s ease infinite;
-    -moz-animation: BG 20s ease infinite;
-    animation: BG 20s ease infinite;
+
+html {
+    font-size: 19px;
+}
+body {
+    background:@sh-green;
+    .page-host {
+        .bg-bg();
+        color:#EEE;color:rgba(255,255,255,0.8);
+        font-family: "Work Sans", "Arial Narrow", sans-serif;
+        font-weight:lighter;
+        a {
+            color:#EEE;color:rgba(255,255,255,0.8);
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            text-decoration:underline;
+            &:hover, &:active {color: #FFF;}
+        }
+        //"skinning", may remove
+        .well, .bs-callout {
+            color: @sh-purple-dark;
+            font-family:Arial, Helvetica, sans-serif;
+            a, a:hover, a:active { color: blue;font-family: sans-serif; }
+        }
+    }
 }
 
 /*based on durandal starterkit*/
@@ -27,10 +58,8 @@
     text-align: center;
     margin: 15% 0 0 0;
 }
-.splash .fa-spinner {
-    text-align: center;
-    display: inline-block;
-    font-size: 5em;
+.splash .fa-spin {
+    color: #CCC;
 }
 .page-host {
     position: absolute;
@@ -56,6 +85,7 @@ section {
 .bs-callout {
     padding:20px;
     margin:20px 0;
+    background:#F4F4F4;background:rgba(255,255,255,0.9);
     border:1px solid #eeeeee;
     border-left-width:5px;
     border-radius:3px;

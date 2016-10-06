@@ -1,3 +1,4 @@
+@import 'https://fonts.googleapis.com/css?family=Work+Sans:200';
 @-webkit-keyframes BG {
   0% {
     background-position: 100% 0%;
@@ -32,21 +33,60 @@
   }
 }
 .bg-bg {
-  background: linear-gradient(270deg, #2f8d75, #0e9593);
+  background: #2f8d75 linear-gradient(225deg, #2f8d75, #0fa09e);
   background-size: 400% 400%;
-  -webkit-animation: BG 20s ease infinite;
-  -moz-animation: BG 20s ease infinite;
-  animation: BG 20s ease infinite;
+  -webkit-animation: BG 15s ease infinite;
+  -moz-animation: BG 15s ease infinite;
+  animation: BG 15s ease infinite;
+}
+html {
+  font-size: 19px;
+}
+body {
+  background: #2f8d75;
+}
+body .page-host {
+  background: #2f8d75 linear-gradient(225deg, #2f8d75, #0fa09e);
+  background-size: 400% 400%;
+  -webkit-animation: BG 15s ease infinite;
+  -moz-animation: BG 15s ease infinite;
+  animation: BG 15s ease infinite;
+  color: #EEE;
+  color: rgba(255, 255, 255, 0.8);
+  font-family: "Work Sans", "Arial Narrow", sans-serif;
+  font-weight: lighter;
+}
+body .page-host a {
+  color: #EEE;
+  color: rgba(255, 255, 255, 0.8);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-decoration: underline;
+}
+body .page-host a:hover,
+body .page-host a:active {
+  color: #FFF;
+}
+body .page-host .well,
+body .page-host .bs-callout {
+  color: #470348;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body .page-host .well a,
+body .page-host .bs-callout a,
+body .page-host .well a:hover,
+body .page-host .bs-callout a:hover,
+body .page-host .well a:active,
+body .page-host .bs-callout a:active {
+  color: blue;
+  font-family: sans-serif;
 }
 /*based on durandal starterkit*/
 .splash {
   text-align: center;
   margin: 15% 0 0 0;
 }
-.splash .fa-spinner {
-  text-align: center;
-  display: inline-block;
-  font-size: 5em;
+.splash .fa-spin {
+  color: #CCC;
 }
 .page-host {
   position: absolute;
@@ -71,6 +111,8 @@ section {
 .bs-callout {
   padding: 20px;
   margin: 20px 0;
+  background: #F4F4F4;
+  background: rgba(255, 255, 255, 0.9);
   border: 1px solid #eeeeee;
   border-left-width: 5px;
   border-radius: 3px;
