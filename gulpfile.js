@@ -27,6 +27,9 @@ gulp.task('watch', function() {
 	gulp.watch('Website/app/**/*.js', function(event) {
         gulp.run('scripts');
     });
+	gulp.watch('Website/app/views/*.html', function(event) {
+        gulp.run('durandal');
+    });
 	gulp.watch('Website/less/**/*.less', function(event) {
         gulp.run('less');
     });
