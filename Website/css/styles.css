@@ -86,6 +86,8 @@ body .page-host .bs-callout a:active {
   margin: 15% 0 0 0;
 }
 .splash .fa-spin {
+  text-align: center;
+  display: inline-block;
   color: #CCC;
 }
 .page-host {
