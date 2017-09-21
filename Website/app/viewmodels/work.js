@@ -57,7 +57,7 @@
                 description: "text storage and history <small>(<a href='http://snpt.shameen.info/beta'>beta</a>)</small>",
                 img: "images/work/snpt1.png",
                 link: {
-                    url: "http://snpt.shameen.info/",
+                    url: "http://shameen.info/snpt",
                     active: true
                 },
                 tags: ["PHP","MySQL"]
@@ -67,7 +67,7 @@
                 description: "card game database browser and preview",
                 img: "images/work/fmr.png",
                 link: {
-                    url: "http://fmr.shameen.info/",
+                    url: "http://shameen.info/fmr",
                     active: true
                 },
                 tags: ["PHP","MySQL","jQuery","jQuery UI"]
