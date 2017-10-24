@@ -54,7 +54,7 @@
             },
             {
                 title: "snpt, online textbox",
-                description: "text storage and history <small>(<a href='http://snpt.shameen.info/beta'>beta</a>)</small>",
+                description: "text storage and history <small>(<a href='http://shameen.info/snpt/beta'>beta</a>)</small>",
                 img: "images/work/snpt1.png",
                 link: {
                     url: "http://shameen.info/snpt",
