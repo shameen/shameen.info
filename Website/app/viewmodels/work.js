@@ -10,7 +10,7 @@
                     url: "http://hashtagdungeon.com",
                     active: true
                 },
-                tags: ["jQuery","CSS"]
+                tags: ["2014", "jQuery","CSS"]
             },
             {
                 title: "Negative",
@@ -20,7 +20,7 @@
                     url: "https://github.com/shameen/negative",
                     active: true
                 },
-                tags: ["MATLAB","GUI","Image Processing"]
+                tags: ["2014", "MATLAB","GUI","Image Processing"]
             },
             {
                 title: "Timetabling System",
@@ -30,7 +30,7 @@
                     url: null,
                     active: false
                 },
-                tags: ["ASP.NET","SQL Server","Bootstrap"]
+                tags: ["2013", "ASP.NET","SQL Server","Bootstrap"]
             },
             {
                 title: "Phil Wolstenholme Photography",
@@ -40,7 +40,7 @@
                     url: "http://philwolstenholme.com/",
                     active: true
                 },
-                tags: ["jQuery","CSS"]
+                tags: ["2012", "jQuery","CSS"]
             },
             {
                 title: "Propah Job Studios Website",
@@ -50,7 +50,7 @@
                     url: "http://propahjobstudios.co.uk/",
                     active: false
                 },
-                tags: ["WordPress","PHP","CSS"]
+                tags: ["2010", "WordPress","PHP","CSS"]
             },
             {
                 title: "snpt, online textbox",
@@ -60,27 +60,7 @@
                     url: "http://shameen.info/snpt",
                     active: true
                 },
-                tags: ["PHP","MySQL"]
-            },
-            {
-                title: "Forbidden Memories Database",
-                description: "card game database browser and preview",
-                img: "images/work/fmr.png",
-                link: {
-                    url: "http://shameen.info/fmr",
-                    active: true
-                },
-                tags: ["PHP","MySQL","jQuery","jQuery UI"]
-            },
-            {
-                title: "FI Windows & Conservatories",
-                description: "basic website with gallery and effects",
-                img: "images/work/fiwindows.png",
-                link: {
-                    url: "http://fiwindows.com/",
-                    active: false
-                },
-                tags: ["jQuery"]
+                tags: ["2010", "PHP","MySQL"]
             },
             {
                 title: "JR Ambulance Medical Resources",
@@ -90,17 +70,37 @@
                     url: "http://www.jr-ambulance.co.uk/calculator/medical_resources_calculator_AIO.html",
                     active: false
                 },
-                tags: ["JavaScript"]
+                tags: ["2011", "JavaScript"]
+            },
+            {
+                title: "Forbidden Memories Database",
+                description: "card game database browser and preview",
+                img: "images/work/fmr.png",
+                link: {
+                    url: "http://shameen.info/fmr",
+                    active: true
+                },
+                tags: ["2010", "PHP","MySQL","jQuery","jQuery UI"]
+            },
+            {
+                title: "FI Windows & Conservatories",
+                description: "basic website with gallery and effects",
+                img: "images/work/fiwindows.png",
+                link: {
+                    url: "http://fiwindows.com/",
+                    active: false
+                },
+                tags: ["2009", "jQuery"]
             },
             {
                 title: "iAlaina 30-second intro",
                 description: "3D main titles based on the the TV show 'iCarly'",
-                img: null, //TODO: vimeo embed
+                img: null, //TODO: vimeo embed?
                 link: {
                     url: "http://vimeo.com/10457730",
                     active: true
                 },
-                tags: ["3D","After Effects","Video","VFX"]
+                tags: ["2011", "3D","After Effects","Video","VFX"]
             }
         ]
     };
