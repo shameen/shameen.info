@@ -84,7 +84,6 @@
     <Content Include="Website\images\work\wolstenholme2.png" />
     <Content Include="Website\index.html" />
     <Content Include="package.json" />
-    <Content Include="bower.json" />
     <None Include="Properties\PublishProfiles\shameen.info.pubxml" />
     <Content Include="Website\less\styles.less" />
   </ItemGroup>

@@ -1,25 +1,30 @@
 {
   "name": "shameen.info",
-  "version": "1.0.0",
-  "description": "personal durandal website",
+  "description": "Personal website built using Durandal",
+  "version": "1.1.0",
+  "repository": "github:shameen/shameen.info",
+  "license": "UNLICENSED",
+  "private": true,
   "main": "gulpfile.js",
-  "dependencies": {},
+  "dependencies": {
+    "bootstrap": "~3.4.1",
+    "durandal": "~2.2.0",
+    "font-awesome": "~4.7.0",
+    "jquery": "1.9.1",
+    "knockout": "~3.5.1"
+  },
   "devDependencies": {
-    "bower": "~1.7.9",
     "gulp": "~3.9.1",
     "gulp-durandal": "~1.1.7",
     "gulp-less": "~3.1.0",
     "gulp-sourcemaps": "~1.6.0"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/shameen/shameen.info.git"
+  "scripts": {
+    "build": "gulp"
   },
-  "author": "shameen",
-  "license": "UNLICENSED",
-  "private": true,
-  "bugs": {
-    "url": "https://github.com/shameen/shameen.info/issues"
+  "engines": {
+    "node": "^10.24.1",
+    "npm": "^6.14.12"
   },
-  "homepage": "https://github.com/shameen/shameen.info#readme"
+  "engineStrict": true
 }
