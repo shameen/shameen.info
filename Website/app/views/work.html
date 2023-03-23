@@ -1,20 +1,27 @@
 ﻿<section>
-    <h2 data-bind="text: title"></h2>
-    <div data-bind="foreach: portfolioItems">
-        <div class="row well">
-            <div style="max-width:640px;display:inline-block;">
-                <img data-bind="attr: { src: img }" style="max-width:640px;max-height:480px;width:100%;margin:auto"/>
-            </div>
-            <div style="display:inline-block;width:300px;margin:0 4%;">
-                <h3 data-bind="text: title"></h3>
-                <p data-bind="html: description"></p>
-                <div class="external-link" data-bind="with: link">
-                    <a data-bind="attr: {href: url}, text: url, enable: active, visible: url != null" target="_blank" title="Opens in New Tab"></a>
-                </div>
-                <p data-bind="foreach: tags">
-                    <span class="label label-default" data-bind="text: $data"></span>
-                </p>
-            </div>
+  <h2 data-bind="text: title"></h2>
+  <div data-bind="foreach: portfolioItems">
+    <div class="row well">
+      <div style="max-width: 640px; display: inline-block">
+        <img
+          data-bind="attr: { src: img }"
+          style="max-width: 640px; max-height: 480px; width: 100%; margin: auto"
+        />
+      </div>
+      <div style="display: inline-block; width: 300px; margin: 0 4%">
+        <h3 data-bind="text: title"></h3>
+        <p data-bind="html: description"></p>
+        <div class="external-link" data-bind="with: link">
+          <a
+            data-bind="attr: {href: url}, css: {_strikethrough: !active}, text: url, enable: active, visible: url != null"
+            target="_blank"
+            title="Opens in New Tab"
+          ></a>
         </div>
+        <p data-bind="foreach: tags">
+          <span class="label label-default" data-bind="text: $data"></span>
+        </p>
+      </div>
     </div>
+  </div>
 </section>

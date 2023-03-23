@@ -1,7 +1,7 @@
 ﻿<section>
-    <h2 data-bind="text:title"></h2>
-    <blockquote data-bind="text:subHeader"></blockquote>
-    <div class="row" data-bind="foreach: contactList">
-        <a data-bind="attr: { href:url }, text: title"></a>
-    </div>
+  <h2 data-bind="text:title"></h2>
+  <blockquote data-bind="text:subHeader, visible:subHeader"></blockquote>
+  <div class="row" data-bind="foreach: contactList">
+    <a data-bind="attr: { href:url }, text: title"></a>
+  </div>
 </section>

@@ -37,10 +37,10 @@
       {
         title: "Phil Wolstenholme Photography",
         description: "multi-page website with self-made jquery photo gallery",
-        img: "images/work/wolstenholme1.png",
+        img: "https://drive.google.com/uc?id=16PlyXjPWSd3C3xg3oQQkZ5RNWayDvj0k",
         link: {
-          url: "https://drive.google.com/uc?id=16PlyXjPWSd3C3xg3oQQkZ5RNWayDvj0k",
-          active: true,
+          url: "http://philwolstenholme.com/",
+          active: false,
         },
         tags: ["2012", "jQuery", "CSS"],
       },

@@ -1,4 +1,4 @@
-@import 'https://fonts.googleapis.com/css?family=Work+Sans:200';
+@import "https://fonts.googleapis.com/css?family=Work+Sans:200";
 @-webkit-keyframes BG {
   0% {
     background-position: 100% 0%;
@@ -51,20 +51,20 @@ body .page-host {
   -webkit-animation: BG 15s ease infinite;
   -moz-animation: BG 15s ease infinite;
   animation: BG 15s ease infinite;
-  color: #EEE;
+  color: #eee;
   color: rgba(255, 255, 255, 0.8);
   font-family: "Work Sans", "Arial Narrow", sans-serif;
   font-weight: lighter;
 }
 body .page-host a {
-  color: #EEE;
+  color: #eee;
   color: rgba(255, 255, 255, 0.8);
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   text-decoration: underline;
 }
 body .page-host a:hover,
 body .page-host a:active {
-  color: #FFF;
+  color: #fff;
 }
 body .page-host .well,
 body .page-host .bs-callout {
@@ -88,7 +88,7 @@ body .page-host .bs-callout a:active {
 .splash .fa-spin {
   text-align: center;
   display: inline-block;
-  color: #CCC;
+  color: #ccc;
 }
 .page-host {
   position: absolute;
@@ -113,7 +113,7 @@ section {
 .bs-callout {
   padding: 20px;
   margin: 20px 0;
-  background: #F4F4F4;
+  background: #f4f4f4;
   background: rgba(255, 255, 255, 0.9);
   border: 1px solid #eeeeee;
   border-left-width: 5px;
@@ -167,6 +167,9 @@ section {
 }
 .bs-callout.bs-callout-info h4 {
   color: #5bc0de;
+}
+._strikethrough {
+  text-decoration: line-through !important;
 }
 
 /*# sourceMappingURL=styles.css.map */

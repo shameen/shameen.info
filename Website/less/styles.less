@@ -1,131 +1,177 @@
-@import 'https://fonts.googleapis.com/css?family=Work+Sans:200';
+@import "https://fonts.googleapis.com/css?family=Work+Sans:200";
 @sh-green: #2f8d75;
 @sh-blue: #0fa09e;
 @sh-purple: #470348;
 @sh-purple-dark: #470348;
 
 @-webkit-keyframes BG {
-    0%{background-position:100% 0%}
-    50%{background-position:0% 100%}
-    100%{background-position:100% 0%}
+  0% {
+    background-position: 100% 0%;
+  }
+  50% {
+    background-position: 0% 100%;
+  }
+  100% {
+    background-position: 100% 0%;
+  }
 }
 @-moz-keyframes BG {
-    0%{background-position:100% 0%}
-    50%{background-position:0% 100%}
-    100%{background-position:100% 0%}
+  0% {
+    background-position: 100% 0%;
+  }
+  50% {
+    background-position: 0% 100%;
+  }
+  100% {
+    background-position: 100% 0%;
+  }
 }
-@keyframes BG { 
-    0%{background-position:100% 0%}
-    50%{background-position:0% 100%}
-    100%{background-position:100% 0%}
+@keyframes BG {
+  0% {
+    background-position: 100% 0%;
+  }
+  50% {
+    background-position: 0% 100%;
+  }
+  100% {
+    background-position: 100% 0%;
+  }
 }
 .bg-bg {
-    background: @sh-green linear-gradient(225deg, @sh-green, @sh-blue);
-    background-size: 400% 400%;
-    -webkit-animation: BG 15s ease infinite;
-    -moz-animation: BG 15s ease infinite;
-    animation: BG 15s ease infinite;
+  background: @sh-green linear-gradient(225deg, @sh-green, @sh-blue);
+  background-size: 400% 400%;
+  -webkit-animation: BG 15s ease infinite;
+  -moz-animation: BG 15s ease infinite;
+  animation: BG 15s ease infinite;
 }
-
 
 html {
-    font-size: 19px;
+  font-size: 19px;
 }
 body {
-    background:@sh-green;
-    .page-host {
-        .bg-bg();
-        color:#EEE;color:rgba(255,255,255,0.8);
-        font-family: "Work Sans", "Arial Narrow", sans-serif;
-        font-weight:lighter;
-        a {
-            color:#EEE;color:rgba(255,255,255,0.8);
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-            text-decoration:underline;
-            &:hover, &:active {color: #FFF;}
-        }
-        //"skinning", may remove
-        .well, .bs-callout {
-            color: @sh-purple-dark;
-            font-family:Arial, Helvetica, sans-serif;
-            a, a:hover, a:active { color: blue;font-family: sans-serif; }
-        }
+  background: @sh-green;
+  .page-host {
+    .bg-bg();
+    color: #eee;
+    color: rgba(255, 255, 255, 0.8);
+    font-family: "Work Sans", "Arial Narrow", sans-serif;
+    font-weight: lighter;
+    a {
+      color: #eee;
+      color: rgba(255, 255, 255, 0.8);
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      text-decoration: underline;
+      &:hover,
+      &:active {
+        color: #fff;
+      }
     }
+    //"skinning", may remove
+    .well,
+    .bs-callout {
+      color: @sh-purple-dark;
+      font-family: Arial, Helvetica, sans-serif;
+      a,
+      a:hover,
+      a:active {
+        color: blue;
+        font-family: sans-serif;
+      }
+    }
+  }
 }
 
 /*based on durandal starterkit*/
 .splash {
-    text-align: center;
-    margin: 15% 0 0 0;
+  text-align: center;
+  margin: 15% 0 0 0;
 }
 .splash .fa-spin {
-    text-align: center;
-    display: inline-block;
-    color: #CCC;
+  text-align: center;
+  display: inline-block;
+  color: #ccc;
 }
 .page-host {
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 50px;
-    bottom: 0;
-    overflow-x: hidden;
-    overflow-y: auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50px;
+  bottom: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 section {
-    margin: 0 20px;
+  margin: 0 20px;
 }
 .navbar-nav li.loader {
-    margin: 12px 6px 0 6px;
-    visibility: hidden;
+  margin: 12px 6px 0 6px;
+  visibility: hidden;
 }
 .navbar-nav li.loader.active {
-    visibility: visible;
+  visibility: visible;
 }
 
 /**bootstrap callout*/
 .bs-callout {
-    padding:20px;
-    margin:20px 0;
-    background:#F4F4F4;background:rgba(255,255,255,0.9);
-    border:1px solid #eeeeee;
-    border-left-width:5px;
-    border-radius:3px;
+  padding: 20px;
+  margin: 20px 0;
+  background: #f4f4f4;
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid #eeeeee;
+  border-left-width: 5px;
+  border-radius: 3px;
+  h4 {
+    margin-top: 0;
+    margin-bottom: 5px;
+  }
+  p:last-child {
+    margin-bottom: 0;
+  }
+  code {
+    border-radius: 3px;
+  }
+  + .bs-callout {
+    margin-top: -5px;
+  }
+  &.bs-callout-default {
+    border-left-color: #777777;
     h4 {
-        margin-top:0;
-        margin-bottom:5px;
+      color: #777777;
     }
-    p:last-child {
-        margin-bottom:0;
+  }
+  &.bs-callout-primary {
+    border-left-color: #428bca;
+    h4 {
+      color: #428bca;
     }
-    code {
-        border-radius:3px;
+  }
+  &.bs-callout-success {
+    border-left-color: #5cb85c;
+    h4 {
+      color: #5cb85c;
     }
-    + .bs-callout {
-        margin-top:-5px;
+  }
+  &.bs-callout-danger {
+    border-left-color: #d9534f;
+    h4 {
+      color: #d9534f;
     }
-    &.bs-callout-default {
-        border-left-color:#777777;
-        h4 {color:#777777;}
+  }
+  &.bs-callout-warning {
+    border-left-color: #f0ad4e;
+    h4 {
+      color: #f0ad4e;
     }
-    &.bs-callout-primary {
-        border-left-color:#428bca;
-        h4 {color:#428bca;}
+  }
+  &.bs-callout-info {
+    border-left-color: #5bc0de;
+    h4 {
+      color: #5bc0de;
     }
-    &.bs-callout-success {
-        border-left-color:#5cb85c;
-        h4 {color:#5cb85c;}
-    }
-    &.bs-callout-danger {
-        border-left-color:#d9534f;
-        h4 {color:#d9534f;}
-    }
-    &.bs-callout-warning {
-        border-left-color:#f0ad4e;
-        h4 {color:#f0ad4e;}
-    }
-    &.bs-callout-info {
-        border-left-color:#5bc0de;
-        h4 {color:#5bc0de;}
-    }
+  }
+}
+
+._strikethrough {
+  text-decoration: line-through !important;
 }
