@@ -14,17 +14,16 @@
     "knockout": "~3.5.1"
   },
   "devDependencies": {
-    "gulp": "~3.9.1",
+    "cpy-cli": "^4.2.0",
     "gulp-durandal": "~1.1.7",
     "gulp-less": "~3.1.0",
-    "gulp-sourcemaps": "~1.6.0"
+    "gulp-sourcemaps": "~1.6.0",
+    "gulp-v3": "~3.12.1",
+    "rimraf": "^4.4.1"
   },
   "scripts": {
-    "build": "gulp"
-  },
-  "engines": {
-    "node": "^10.24.1",
-    "npm": "^6.14.12"
-  },
-  "engineStrict": true
+    "build": "gulp build",
+    "postbuild": "rimraf Website/lib && mkdir Website\\lib && cpy \"{bootstrap,durandal,font-awesome,jquery,knockout,requirejs-text}\" \"../Website/lib/\" --cwd=node_modules/",
+    "build:watch": "gulp"
+  }
 }
