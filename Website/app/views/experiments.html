@@ -9,19 +9,19 @@
         <a
           data-bind="attr: {href: url}, text: url, style: {'text-decoration': functional ? '' : 'line-through'}"
         ></a>
-        <div data-bind="foreach: tags">
-          <span class="label label-primary" data-bind="text: $data"></span>
+
+        <div>
+          <span data-bind="foreach: tags">
+            <span class="label label-primary" data-bind="text: $data"></span>
+          </span>
+
+          <span class="label label-success" data-bind="visible: functional"
+            >Working</span
+          >
+          <span class="label label-danger" data-bind="visible: !functional"
+            >Not fully functional</span
+          >
         </div>
-        <span
-          class="label label-success"
-          data-bind="visible: $parent.functional"
-          >Working</span
-        >
-        <span
-          class="label label-danger"
-          data-bind="visible: !$parent.functional"
-          >Not fully functional</span
-        >
       </div>
     </div>
   </div>
