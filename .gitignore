@@ -196,3 +196,9 @@ FakesAssemblies/
 
 # Visual Studio Code
 .vscode/
+
+# VSCode History plugin
+.history/
+
+# archaic build setup: prebuild script copies to Website/lib
+Website/lib/

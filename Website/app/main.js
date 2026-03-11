@@ -6,7 +6,7 @@
     transitions: "../lib/durandal/js/transitions",
     knockout: "../lib/knockout/build/output/knockout-latest",
     bootstrap: "../lib/bootstrap/dist/js/bootstrap",
-    jquery: "../lib/jquery/jquery",
+    jquery: "../lib/jquery/dist/jquery",
   },
   shim: {
     bootstrap: {

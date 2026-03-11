@@ -10,11 +10,11 @@
     "bootstrap": "~3.4.1",
     "durandal": "~2.2.0",
     "font-awesome": "~4.7.0",
-    "jquery": "1.9.1",
+    "jquery": "1.12.4",
     "knockout": "~3.5.1"
   },
   "devDependencies": {
-    "cpy-cli": "^4.2.0",
+    "fs-extra": "^11.3.4",
     "gulp-durandal": "~1.1.7",
     "gulp-less": "~3.1.0",
     "gulp-sourcemaps": "~1.6.0",
@@ -23,7 +23,10 @@
   },
   "scripts": {
     "build": "gulp build",
-    "postbuild": "rimraf Website/lib && mkdir Website\\lib && cpy \"{bootstrap,durandal,font-awesome,jquery,knockout,requirejs-text}\" \"../Website/lib/\" --cwd=node_modules/",
+    "prebuild": "node prebuild.mjs",
     "build:watch": "gulp"
+  },
+  "engines": {
+    "node": "16.20.2"
   }
 }
