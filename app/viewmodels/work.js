@@ -5,10 +5,10 @@
       {
         title: "Hashtag Dungeon Website",
         description: "indie game landing-page website",
-        img: "https://drive.google.com/uc?id=1nDP7G3midWkIphFUJZJPAqAEbAOQyU_M",
+        img: "images/work/hDungeon.png",
         link: {
           url: "http://hashtagdungeon.com",
-          active: true,
+          active: false,
         },
         tags: ["2014", "jQuery", "CSS"],
       },
@@ -16,7 +16,7 @@
         title: "Negative",
         description:
           "image processing tool for photo negatives (University final-year project)",
-        img: "https://drive.google.com/uc?id=1KTGSjho57nZ-r5NVqV-pxavHoR1nLX3S",
+        img: "images/work/negative.png",
         link: {
           url: "https://github.com/shameen/negative",
           active: true,
@@ -27,7 +27,7 @@
         title: "Timetabling System",
         description:
           "database-driven ASP.NET timetabling system (University team project)",
-        img: "https://drive.google.com/uc?id=1BOphILsUVQIMETT5nZSuk3mel4SRvU6X",
+        img: "images/work/deliv3_4.png",
         link: {
           url: null,
           active: false,
@@ -37,7 +37,7 @@
       {
         title: "Phil Wolstenholme Photography",
         description: "multi-page website with self-made jquery photo gallery",
-        img: "https://drive.google.com/uc?id=16PlyXjPWSd3C3xg3oQQkZ5RNWayDvj0k",
+        img: "images/work/wolstenholme1.png",
         link: {
           url: "http://philwolstenholme.com/",
           active: false,
@@ -45,10 +45,20 @@
         tags: ["2012", "jQuery", "CSS"],
       },
       {
+        title: "Forbidden Memories Database",
+        description: "card game database browser and preview",
+        img: "images/work/fmr.png",
+        link: {
+          url: "http://shameen.info/fmr",
+          active: false,
+        },
+        tags: ["2010", "PHP", "MySQL", "jQuery", "jQuery UI"],
+      },
+      {
         title: "Propah Job Studios Website",
         description:
           "wordpress theme <small>(and previously, <a href='http://dl.dropbox.com/u/698380/propah/index.html'>simple HTML websites</a>)</small>",
-        img: "https://drive.google.com/uc?id=1jZ5ndPX8b18SDANk6m6WeyBkWhXbUGWT",
+        img: "images/work/pjs.png",
         link: {
           url: "http://propahjobstudios.co.uk/",
           active: false,
@@ -59,17 +69,17 @@
         title: "snpt, online textbox",
         description:
           "text storage and history <small>(<a href='http://shameen.info/snpt/beta'>beta</a>)</small>",
-        img: "https://drive.google.com/uc?id=1E9sxcqUFEL-V9yBGeBzBQ5HkOoEUSHts",
+        img: "images/work/snpt1.png",
         link: {
           url: "http://shameen.info/snpt",
-          active: true,
+          active: false,
         },
         tags: ["2010", "PHP", "MySQL"],
       },
       {
         title: "JR Ambulance Medical Resources",
         description: "quote calculator",
-        img: "https://drive.google.com/uc?id=1uprwPt7Ta3ioV5B4QuPNEJnnjZh9FPFj",
+        img: "images/work/jrambulance.png",
         link: {
           url: "http://www.jr-ambulance.co.uk/calculator/medical_resources_calculator_AIO.html",
           active: false,
@@ -77,19 +87,9 @@
         tags: ["2011", "JavaScript"],
       },
       {
-        title: "Forbidden Memories Database",
-        description: "card game database browser and preview",
-        img: "https://drive.google.com/uc?id=1Ii6gFpgXcWycBZDv0NVGECHaWx_Nb49f",
-        link: {
-          url: "http://shameen.info/fmr",
-          active: true,
-        },
-        tags: ["2010", "PHP", "MySQL", "jQuery", "jQuery UI"],
-      },
-      {
         title: "FI Windows & Conservatories",
         description: "basic website with gallery and effects",
-        img: "https://drive.google.com/uc?id=12tCqvY-KPDp4t_qog6768b8ql0Z3PtQs",
+        img: "images/work/fiwindows.png",
         link: {
           url: "http://fiwindows.com/",
           active: false,
