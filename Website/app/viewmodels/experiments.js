@@ -8,7 +8,7 @@
         description: "test to split spritesheets",
         url: "http://shameen.info/sprite",
         tags: ["2012", "website"],
-        functional: true,
+        functional: false,
       },
       {
         title: "snpt beta",

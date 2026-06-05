@@ -3,6 +3,26 @@
     title: "Portfolio",
     portfolioItems: [
       {
+        title: "Rapid-res",
+        description: "(front-end only) restaurant bookings and pre-orders",
+        img: "images/work/rapid-res.png",
+        link: {
+          url: "https://rapid-res.com/",
+          active: true,
+        },
+        tags: ["2024", "React", "Tailwind", "TypeScript"],
+      },
+      {
+        title: "MASH Game",
+        description: "reproducing the paper and pencil game",
+        img: "images/work/mash.png",
+        link: {
+          url: "https://shameen.github.io/mash-game-react/",
+          active: true,
+        },
+        tags: ["2023", "React", "TypeScript"],
+      },
+      {
         title: "Hashtag Dungeon Website",
         description: "indie game landing-page website",
         img: "images/work/hDungeon.png",
@@ -67,8 +87,7 @@
       },
       {
         title: "snpt, online textbox",
-        description:
-          "text storage and history <small>(<a href='http://shameen.info/snpt/beta'>beta</a>)</small>",
+        description: "text storage and history",
         img: "images/work/snpt1.png",
         link: {
           url: "http://shameen.info/snpt",
@@ -104,7 +123,7 @@
           url: "http://vimeo.com/10457730",
           active: true,
         },
-        tags: ["2011", "3D", "After Effects", "Video", "VFX"],
+        tags: ["2011", "Video", "VFX", "3D", "After Effects"],
       },
     ],
   };
