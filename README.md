@@ -16,27 +16,29 @@ Personal website built with **SvelteKit**, **Tailwind CSS v4**, and **Storybook*
 
 ---
 
-## Development
+## Dev Setup
 
-Install dependencies:
+### Pre-requisites
 
-```sh
-npm install
-```
+- [Node.js](https://nodejs.org/) v24 (or v22 LTS)
 
-Run the dev server:
+---
 
-```sh
-npm run dev -- --open
-```
+### Getting started
 
-Build production version:
+1. `npm i`
+
+2. `npm run dev -- --open`
+
+### Check Production Build
+
+1. Build production version:
 
 ```sh
 npm run build
 ```
 
-Preview production build:
+2. Preview production build:
 
 ```sh
 npm run preview
@@ -55,6 +57,8 @@ npx sv@0.15.4 create --template minimal --types ts --add prettier tailwindcss="p
 ---
 
 ## Deployment
+
+Deployment is handled automatically via GitHub Actions on pushes to the `main` branch.
 
 This project is configured for static deployment (e.g. GitHub Pages) using `adapter-static`.
 
