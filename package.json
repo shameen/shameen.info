@@ -1,32 +1,56 @@
 {
   "name": "shameen.info",
-  "description": "Personal website built using Durandal",
-  "version": "1.1.0",
-  "repository": "github:shameen/shameen.info",
-  "license": "UNLICENSED",
   "private": true,
-  "main": "gulpfile.js",
-  "dependencies": {
-    "bootstrap": "~3.4.1",
-    "durandal": "~2.2.0",
-    "font-awesome": "~4.7.0",
-    "jquery": "1.12.4",
-    "knockout": "~3.5.1"
+  "version": "2.0.0",
+  "type": "module",
+  "description": "Personal website and portfolio of Shameen — software engineer, experiments, and projects.",
+  "author": "Shameen <https://github.com/shameen>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shameen/shameen.info.git"
+  },
+  "homepage": "https://shameen.github.io/shameen.info",
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build",
+    "preview": "vite preview",
+    "prepare": "svelte-kit sync || echo ''",
+    "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+    "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
+    "lint": "prettier --check . && eslint .",
+    "format": "prettier --write .",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
   },
   "devDependencies": {
-    "fs-extra": "^11.3.4",
-    "gulp-durandal": "~1.1.7",
-    "gulp-less": "~3.1.0",
-    "gulp-sourcemaps": "~1.6.0",
-    "gulp-v3": "~3.12.1",
-    "rimraf": "^4.4.1"
-  },
-  "scripts": {
-    "build": "gulp build",
-    "prebuild": "node prebuild.mjs",
-    "build:watch": "gulp"
+    "@eslint/js": "^10.0.1",
+    "@storybook/addon-docs": "^10.4.2",
+    "@storybook/addon-svelte-csf": "^5.1.2",
+    "@storybook/addon-themes": "^10.4.2",
+    "@storybook/sveltekit": "^10.4.2",
+    "@sveltejs/adapter-auto": "^7.0.1",
+    "@sveltejs/adapter-static": "^3.0.10",
+    "@sveltejs/kit": "^2.57.0",
+    "@sveltejs/vite-plugin-svelte": "^7.0.0",
+    "@tailwindcss/vite": "^4.2.2",
+    "@types/node": "^22",
+    "eslint": "^10.4.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-storybook": "^10.4.2",
+    "eslint-plugin-svelte": "^3.17.0",
+    "globals": "^17.4.0",
+    "prettier": "^3.8.1",
+    "prettier-plugin-svelte": "^3.5.2",
+    "prettier-plugin-tailwindcss": "^0.7.2",
+    "storybook": "^10.4.2",
+    "svelte": "^5.55.2",
+    "svelte-check": "^4.4.6",
+    "tailwindcss": "^4.2.2",
+    "typescript": "^6.0.2",
+    "typescript-eslint": "^8.58.1",
+    "vite": "^8.0.7"
   },
   "engines": {
-    "node": "16.20.2"
+    "node": "^22.11.0 || ^24.11.0"
   }
 }
