@@ -2,6 +2,8 @@
 
 Personal website built with **SvelteKit**, **Tailwind CSS v4**, and **Storybook**. (migrated from a legacy Knockout/Durandal + Gulp stack)
 
+[![Deploy to GitHub Pages](https://github.com/shameen/shameen.info/actions/workflows/deploy.yml/badge.svg)](https://github.com/shameen/shameen.info/actions/workflows/deploy.yml)
+
 ---
 
 ## Tech Stack
