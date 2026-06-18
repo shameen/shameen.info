@@ -110,21 +110,21 @@
     {#each portfolioItems as item (item.title)}
       <div class="flex flex-col gap-6 rounded-lg border p-4 md:flex-row">
         <!-- image -->
-        <div class="w-full md:w-[640px]">
+        <div class="w-full md:w-160">
           {#if item.img}
-            <img src={item.img} alt={item.title} class="max-h-[480px] w-full object-contain" />
+            <img src={item.img} alt={item.title} class="max-h-120 w-full object-contain" />
           {:else}
-            <div class="flex h-[300px] w-full items-center justify-center bg-muted/20 text-muted">
+            <div class="flex h-75 w-full items-center justify-center bg-muted/20 text-muted">
               No image
             </div>
           {/if}
         </div>
 
         <!-- content -->
-        <div class="flex-1 md:w-[300px]">
+        <div class="flex-1 md:w-75 flex flex-col gap-2">
           <h2 class="text-xl font-semibold">{item.title}</h2>
 
-          <p class="mt-2 text-sm text-muted">
+          <p class="text-sm text-muted">
             {item.description}
           </p>
 
@@ -134,15 +134,14 @@
               href={item.link.url}
               target="_blank"
               rel="noreferrer"
-              class="text-link hover:text-link-hover mt-3 block text-sm hover:underline"
-              class:line-through={!item.link.active}
+              class="block text-sm {item.link.active ? 'hover:underline' : 'line-through'}"
             >
               {item.link.url}
             </a>
           {/if}
 
           <!-- tags -->
-          <div class="mt-3 flex flex-wrap gap-2">
+          <div class="flex flex-wrap gap-2">
             {#each item.tags as tag (tag)}
               <span class="rounded bg-foreground/10 px-2 py-1 text-xs text-foreground/70">
                 {tag}
