@@ -17,11 +17,10 @@
     <p class="text-muted">Software Engineer</p>
   </header>
 
-  <p>I work on web applications, data-driven systems, and the occasional side project.</p>
-
+  <p>I build things with code — web apps, software, and the occasional weird side project.</p>
   <p>
-    Over the years I've worked across aviation and maritime fuel efficiency, restaurant technology,
-    e-learning systems, and applied cryptography projects.
+    Professionally I've worked across behavioural change tech, restaurant tech, e-learning, and
+    applied cryptography.
   </p>
 
   <!-- Links -->
