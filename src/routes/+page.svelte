@@ -17,20 +17,11 @@
     <p class="text-muted">Software Engineer</p>
   </header>
 
-  <p>
-    I work on web applications, data-driven systems, 
-    and the occasional side project.
-  </p>
+  <p>I work on web applications, data-driven systems, and the occasional side project.</p>
 
   <p>
-    Over the years I've worked across aviation and maritime fuel efficiency,
-    restaurant technology, e-learning systems, and applied 
-    cryptography projects.
-  </p>
-
-  <p class="text-sm text-muted">
-    Currently rebuilding this site in SvelteKit and 
-    migrating old projects from the early 2010s.
+    Over the years I've worked across aviation and maritime fuel efficiency, restaurant technology,
+    e-learning systems, and applied cryptography projects.
   </p>
 
   <!-- Links -->

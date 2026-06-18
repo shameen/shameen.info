@@ -39,6 +39,18 @@ export default defineConfig(
     },
   },
   {
+    files: ['eslint.config.js'],
+    rules: {
+      '@typescript-eslint/no-unused-vars': 'off',
+    },
+  },
+  {
+    files: ['**/*.svelte'],
+    rules: {
+      'svelte/no-navigation-without-resolve': 'off',
+    },
+  },
+  {
     // Override or add rule settings here, such as:
     // 'svelte/button-has-type': 'error'
     rules: {},
