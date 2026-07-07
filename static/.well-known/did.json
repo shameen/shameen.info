@@ -1,0 +1,28 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/jws-2020/v1"
+  ],
+  "id": "did:web:shameen.info",
+  "verificationMethod": [
+    {
+      "id": "did:web:shameen.info#key-1",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:shameen.info",
+      "publicKeyJwk": {
+        "kty": "OKP",
+        "crv": "Ed25519",
+        "x": "q6p0mIOn6_Kj3bR6ERxU_fCrC3XvUMBFzQ2KjrvUkLc",
+        "kid": "1527d367-4563-4304-9189-aa74b301c06c",
+        "alg": "EdDSA",
+        "use": "sig"
+      }
+    }
+  ],
+  "authentication": [
+    "did:web:shameen.info#key-1"
+  ],
+  "assertionMethod": [
+    "did:web:shameen.info#key-1"
+  ]
+}
