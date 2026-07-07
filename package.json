@@ -52,7 +52,7 @@
     "vite": "^8.0.16"
   },
   "simple-git-hooks": {
-    "pre-commit": "npm exec lint-staged"
+    "pre-commit": "node ./node_modules/.bin/lint-staged"
   },
   "lint-staged": {
     "*.{js,ts,svelte,json,css,md}": [
