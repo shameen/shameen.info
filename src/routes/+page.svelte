@@ -17,9 +17,9 @@
     <p class="text-muted">Software Engineer</p>
   </header>
 
-  <p>I build things with code — web apps, software, and the occasional weird side project.</p>
+  <p>I build things with code: web apps, software, and the occasional weird side project.</p>
   <p>
-    Professionally I've worked across behavioural change tech, restaurant tech, e-learning, and
+    Professionally I've worked across behavioural change tech, hospitality tech, e-learning, and
     applied cryptography.
   </p>
 
