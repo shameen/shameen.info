@@ -134,7 +134,7 @@
               href={item.link.url}
               target="_blank"
               rel="noreferrer"
-              class="block text-sm {item.link.active ? 'hover:underline' : 'line-through'}"
+              class="block text-sm truncate {item.link.active ? 'hover:underline' : 'line-through'}"
             >
               {item.link.url}
             </a>
